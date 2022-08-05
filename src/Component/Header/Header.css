@@ -1,0 +1,41 @@
+.title{
+    font-size: 6vh;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+}
+
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   height: 35vh;
+   width: 100%;
+}
+#standard-select-currency{
+      /* height: 100px; */
+      /* background-color: white; */
+      border: none;
+}
+
+@media (max-width: 900px) {
+    .header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .title{
+        font-size: 10vw;
+
+    }
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search,.select{
+    width: 43%;
+  color: aliceblue;
+  text-decoration: aqua;
+}
